@@ -1,0 +1,14 @@
+/* todas las EtiquetaConIcono */
+.etiqueta-con-icono {
+ -fx-spacing: 6;
+}
+/* el Label de dentro */
+.etiqueta-con-icono .label {
+ -fx-font-size: 13px;
+}
+/* una variante: <EtiquetaConIcono styleClass="aviso" .../> */
+.etiqueta-con-icono.aviso {
+ -fx-background-color: #fff4ce;
+ -fx-padding: 4 8;
+ -fx-background-radius: 4;
+}

@@ -1,0 +1,5 @@
+/* Al llegar al límite, además del fondo, el borde se marca en rojo */
+.limited-text-field:limit-reached {
+    -fx-border-color: #c62828;
+    -fx-border-radius: 3;
+}
